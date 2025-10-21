@@ -6,4 +6,4 @@ Loin itse http staattisen sivun lokaalisti ja tämmöistä liikenttä sain, kuin
 - Application layer: HTTP
 - Transportt layer: TCP
 - Internet layer: IPv4
-- Link layer: Frame 47
+- Link layer: Frame 44
