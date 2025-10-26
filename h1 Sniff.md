@@ -30,3 +30,10 @@ terokarvinen.com google.com ja terokarvinen.goatcounter.com sivuilla on käyty D
 <img width="1511" height="102" alt="Näyttökuva 2025-10-26 221041" src="https://github.com/user-attachments/assets/f6265563-f10c-4b5c-90f1-05f274d5efac" />
 
 <img width="1330" height="49" alt="Näyttökuva 2025-10-26 221229" src="https://github.com/user-attachments/assets/ee7100f8-496e-419c-b0b9-4e240aa6850c" />
+
+## i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
+Muutaman sekunnin ja google ja youtube käynnin jälkeen, olikin tullut jo yli 2000 tuhatta pakettia.
+
+<img width="1912" height="901" alt="Näyttökuva 2025-10-26 225406" src="https://github.com/user-attachments/assets/8ee957db-0878-49f4-98ed-7854429ac8b1" />
+
+Kuvassa näkyy, että portti 443 on auki, laitteen verkkokortti ottaa yhteyttä TCP:llä tähän porttiin. (todennäköisesti TCP-handshake on tapahtunut aikaisemmin, jotta saadaan salattu yhteys.) TLS näkyy HTTPS-liikenne. Muutama FIN --> RST myös löytyy, tässä yritetään sulkea TCP-pyyntöä ja resetoida yhteys.
