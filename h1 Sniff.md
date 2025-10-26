@@ -44,3 +44,6 @@ Muutaman sekunnin ja google ja youtube käynnin jälkeen, olikin tullut jo yli 2
 <img width="1912" height="901" alt="Näyttökuva 2025-10-26 225406" src="https://github.com/user-attachments/assets/8ee957db-0878-49f4-98ed-7854429ac8b1" />
 
 Kuvassa näkyy, että portti 443 on auki, laitteen verkkokortti ottaa yhteyttä TCP:llä tähän porttiin. (todennäköisesti TCP-handshake on tapahtunut aikaisemmin, jotta saadaan salattu yhteys.) TLS näkyy HTTPS-liikenne. Muutama FIN --> RST myös löytyy, tässä yritetään sulkea TCP-pyyntöä ja resetoida yhteys.
+
+### Lähteet
+https://terokarvinen.com/
