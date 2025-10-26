@@ -22,7 +22,7 @@ Kalilla tämä on valmiiksi asennettuna, mutta jos sitä ei ole niin komennolla 
 Tehty tässä: https://github.com/MikoLiukk/Verkkoon-tunkeutuminen-ja-tiedustelu/blob/main/H0%20Hei%20maailma.md
 
 ## e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
-Eniten näkyy IPv4 protokollia ja muutama DNS-kysely (joista yksi on terokarvinen.com). Aikaikkunan mukaan kyseessä on todella lyhyt surffaus sessio, koneita löysin vain muutaman. 
+Eniten näkyy IPv4 protokollia ja muutama DNS-kysely (joista yksi on terokarvinen.com). Aikaikkunan mukaan kyseessä on todella lyhyt surffaus sessio, koneita löysin vain muutaman. Paketteja on myös tosi vähän 7 sekunnin surffailuksi. Silmään myös iski paketti 238, Who has 192.168.122.7? Tell 192.168.122.1 (ARP-protokolla).
 ## g) Minkä merkkinen verkkokortti käyttäjällä on? surfing-secure.pcap
 Koneella on ilmeisesti virtuaalinen verkkokortti, eli käyttäjä käytti virtuaalikonetta.
 
