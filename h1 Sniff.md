@@ -1,7 +1,14 @@
 # h1 Sniff
 ## x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
- - Karvinen 2025: Wireshark - Getting Started
- - Karvinen 2025: Network Interface Names on Linux
+ - Karvinen 2025: Wireshark - Getting Started  (https://terokarvinen.com/wireshark-getting-started/)
+    - sudo apt-get install wireshark
+    - sudo adduser käyttäjänimi wireshark
+ - Karvinen 2025: Network Interface Names on Linux (https://terokarvinen.com/network-interface-linux/)
+    - wlp4so - Wifi card
+    - enp1s0 - Wired ethernet card
+    - lo - Loopback adapter
+    - enx777777 . Wired ethernet card. The number after "x" is the MAC number of the card
+   
 ## b) Ei voi kalastaa. Osoita, että pystyt katkaisemaan ja palauttamaan virtuaalikoneen Internet-yhteyden.
 
 <img width="1174" height="481" alt="Näyttökuva 2025-10-26 142026" src="https://github.com/user-attachments/assets/fd9f3205-a1b5-419b-895b-e9960f07f96d" />
