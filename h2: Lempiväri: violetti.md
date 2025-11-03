@@ -10,9 +10,14 @@
 
 <img width="933" height="542" alt="Näyttökuva 2025-11-03 004351" src="https://github.com/user-attachments/assets/e84fdb03-bfe5-4440-93cd-6bddb1a2f355" />
 
+<img width="928" height="78" alt="Näyttökuva 2025-11-03 004434" src="https://github.com/user-attachments/assets/e7790c28-0c87-4c56-9215-5d46546f7944" />
+127.0.01 - Asiakkaan IP-osoite (localhost) - on käyttäjätunnus, sitten meillä on päivämäärä ja aika, sitten http GET-pyyntö, pyydetty resurssi ja protokolla, palautukoodi 200, vasteen koko tavuina ja käyttäjän User-Agent.
+
 ## b) Nmapped. Porttiskannaa oma weppipalvelimesi käyttäen localhost-osoitetta ja 'nmap -A' päällä. Selitä tulokset. (Pelkkä http-portti 80/tcp riittää)
 
 <img width="842" height="331" alt="Näyttökuva 2025-11-02 232552" src="https://github.com/user-attachments/assets/28fe708e-1afe-4e37-a77e-f14fca73ca38" />
+
+Protti skannauksessa löytyi, että portti 80 on ainoa auki oleva portti.
 
 ## c) Skriptit. Mitkä skriptit olivat automaattisesti päällä, kun käytit "-A" parametria? (Näkyy avoimien porttinumeroiden alta, http-blah, http-blöh...).
 
@@ -25,7 +30,7 @@ tunnistaa porttiskannauksen jostain muusta lokista, jos se on niin laaja, että 
 
 
 ## e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.
-
+Paketit on loopbackeja, joka ei yllättänyt. User-Agent myös löytyy. Pakettien sisältämä NMAP on aika selvä todiste porttiskannauksesta.
 <img width="956" height="821" alt="Näyttökuva 2025-11-03 005458" src="https://github.com/user-attachments/assets/efbb4db8-2d05-40c3-a29e-3595e45cd93d" />
 
 ## f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa on sana "nmap".
@@ -37,7 +42,7 @@ tunnistaa porttiskannauksen jostain muusta lokista, jos se on niin laaja, että 
 <img width="1902" height="416" alt="Näyttökuva 2025-11-03 005908" src="https://github.com/user-attachments/assets/698a585b-c0e4-4a38-a8c8-87d9f96fad8d" />
 
 ## h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitteella. Tarkastele sekä Apachen lokia että siepattua verkkoliikennettä. Mikä on muuttunut, kun vaihdoit user-agent:n? Löytyykö lokista edelleen tekstijono "nmap"?
-
+Ei löydy, kun UA:n muuttaa
 <img width="1902" height="416" alt="Näyttökuva 2025-11-03 005908" src="https://github.com/user-attachments/assets/7a668852-4423-42ba-b137-54e3671dfbfc" />
 
 ## i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
