@@ -1,5 +1,10 @@
 # h2 Tehtävänannot
 ## x) Lue ja vastaa lyhyesti kysymyksiin. Tässä alakohdassa x ei tällä kertaa tarvitse lukea artikkeleita kokonaan, ei tarvitse tiivistää niitä, eikä tehdä testejä koneella.
+- Selitä tuskan pyramidin idea 1-2 virkkeellä. Bianco 2013: Pyramid of Pain. (Katso eritoten pyramidin kuvaa.) https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html
+   - Konsepti, joka kuvaa kuinka vaikeaa hyökkäjälle on sopeutua kun puolustaja tunnistaa ja estää eri tasoisia hyökkäysindikaattoreita. Mitä korkeammalle pyramidissa noustaan, sitä enemmän “kipua” hyökkääjälle aiheutetaan ja sitä kestävämpi puolustus saavutetaan
+
+- Selitä timanttimallin (Diamond Model) idea 1-2 virkkeellä. Tekijä esittelee sen aika juhlallisesti, voit myös etsiä yksinkertaisempia artikkeleita hakukoneella tai kelata suoraan timantin kuvaan. Caltagirone et al 2013: Diamond Model. https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf
+  - Timanttimalli kuvaa hyökkäystä neljän peruselementin ja niiden välisten suhteiden kautta: Adversary (hyökkääjä), Capability (kyvykkyys), Infrastructure (infrastruktuuri) ja Victim (kohde).
 
 ## a) Apache log. Asenna Apache-weppipalvelin paikalliselle virtuaalikoneellesi. Surffaa palvelimellesi salaamattomalla HTTP-yhteydellä, http://localhost . Etsi omaa sivulataustasi vastaava lokirivi. Analysoi yksi tällainen lokirivi, eli selitä sen kaikki kohdat. (Jos Apache ei ole kovin tuttu, voit tätä tehtävää varten vain asentaa sen ja testata oletusweppisivulla. Eli ei tarvitse tehdä omia kotisvuja tms.)
 
