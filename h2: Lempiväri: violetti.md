@@ -48,3 +48,7 @@ Ei löydy, kun UA:n muuttaa
 ## i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
 
 <img width="1902" height="416" alt="Näyttökuva 2025-11-03 005908" src="https://github.com/user-attachments/assets/eb117b10-b541-4281-a433-b3ce556b7d95" />
+
+### Lähteet:
+https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+https://chatgpt.com/share/69085263-98c0-8002-8f1a-b2f34e384bd0
