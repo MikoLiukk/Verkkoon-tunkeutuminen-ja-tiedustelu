@@ -1,6 +1,7 @@
 # h3 Messuilla
 
 Kävimme kurssin kanssa Teknologia messuilla, ja tarkemmin Cyber Security Nordic messuilla 4-6.11.2025. 
+Edit: Voisi sanoa kävimme, koska kun arvioin muiden tehtävät, he eivät ainakaan lippua saanut.
 
 ### x) Läksyksi tästä tapahtumasta teidän tulee tehdä lyhyt raportti siitä, mitä yrityksiä tapasitte, mitä mielenkiintoisia palveluita / tuotteita (max 3kpl) löysitte. (Tässä alakohdassa ei tarvitse tehdä testejä koneella.)
 
