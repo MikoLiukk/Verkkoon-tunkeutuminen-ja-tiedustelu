@@ -4,7 +4,7 @@
 ## a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita.
 Tämä alkoi hyvin kunnes WCL:in virtuaalikoneessa ei ollutkaan tarvittavia ohjelmia tehdä tehtäviä. Ehdin itse opetelle ja tehdä RECON osuuden. Mutta OPN osuudessa tarvittavaa wpa_suplicant ohjelmaa ei löytynyt koneesta ja sitä en osannut siihen kuvaan asentaa.
 Loput harjoituksista seurasin walktrough:n kautta (https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/#recon). Ja jos espanian kieli taipuu niin voi myös seurata Pez Ejecutivon sarjaa https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/#05-what-is-the-flag-in-the-hidden-ap-router-behind-default-credentials
-ja https://www.youtube.com/watch?v=K42uVvTJK5o
+ja https://www.youtube.com/watch?v=K42uVvTJK5o kannattaa seuralailla.
 
 <img width="1443" height="656" alt="image" src="https://github.com/user-attachments/assets/6807626e-aa67-499c-81a2-b9e7e1aa5db2" />
 
