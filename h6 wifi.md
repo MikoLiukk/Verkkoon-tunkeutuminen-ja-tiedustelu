@@ -13,7 +13,7 @@ ja https://www.youtube.com/watch?v=K42uVvTJK5o kannattaa seuralailla.
 ## b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 Harjoituksen aikana opin, että WLANin turvallisuus riippuu suurelta osin verkon asetuksista ja käytetyistä salausmenetelmistä. Opin, että piilotettu SSID ei tarjoa merkittävää lisäsuojaa, sillä verkon voi paljastaa nopeasti oikeilla työkaluilla. Lisäksi opin, että oletusasetusten käyttäminen tekee verkosta helposti saavutettavan hyökkääjälle, ja että hallintapaneeliin pääsy oletustunnuksilla on todellinen riski.
 
-Harjoitus osoitti myös, että langattoman liikenteen seuraaminen on teknisesti helppoa, jos suojaus puuttuu. Työkalut kuten airodump-ng ja mdk4 mahdollistavat sekä passiivisen että aktiivisen tiedonkeruun, mikä havainnollisti, että hyökkäyksen toteuttamiseen ei välttämättä tarvita syvällistä teknistä osaamista.
+Harjoitus osoitti myös, että langattoman liikenteen seuraaminen on teknisesti helppoa, jos suojaus puuttuu. Työkalut kuten airodump-ng ja mdk4 mahdollistavat sekä passiivisen että aktiivisen tiedonkeruun, mikä havainnollisti, että hyökkäyksen toteuttamiseen ei välttämättä tarvita erityistä teknistä osaamista.
 
 Harjoituksessa yllätti erityisesti se, kuinka nopeasti piilotettu verkko voidaan selvittää ja kuinka helposti oletustunnuksilla pääsee käsiksi reitittimen hallintaan. Lisäksi oli yllättävää huomata, että verkon liikennettä voi seurata tehokkaasti yksinkertaisin välinein, mikä korostaa salauksen ja VPN:n merkitystä. Myös työkalujen helppokäyttöisyys ja monipuolisuus yllättivät, sillä niiden avulla voi kerätä paljon tietoa verkosta lyhyessä ajassa.
 
