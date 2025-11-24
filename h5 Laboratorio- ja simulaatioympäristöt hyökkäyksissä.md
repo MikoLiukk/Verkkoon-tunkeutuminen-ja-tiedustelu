@@ -47,6 +47,9 @@ sudo hping3 -S --flood -p 80 10.0.0.2
 Tässä huomiona, että hping3 luo TCP paketit "käsin" ja -S on SYN-lippu, eli luo TCP-yhteyden avauspyyntöjä, kun --flood on se mikä ylikuormittaa vastaanottajan päässä laitteet, eli lähettää paketit mahdollisimman nopeasti, ilman rajoituksia. Tästä tulee TCP SYN-flood.
 
 
+<img width="699" height="568" alt="Näyttökuva 2025-11-24 025128" src="https://github.com/user-attachments/assets/374c67a3-d7b9-47d5-9490-faf8ccf3dcc6" />
+
+
 Tässä kohtaa wireshark huusi tuhatta ja punaista, mutta tuloksetta, paketteja tuli niin paljon ja useasti, että läppärini suorituskykyloppui kesken, mutta henkilökohtaisen kokemuksen perusteella, voin sanoa että tuli käytettyä hyökkäystä itseeni onnistuneesti.
 
 ### Lähteet
