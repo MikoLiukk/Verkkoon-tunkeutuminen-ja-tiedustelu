@@ -34,11 +34,11 @@ lures get-url "0-100"
 TCP SYN-flood, minulle ehkä tutummin (D)dos, jos on joskus pelannut verkoss moninpelejä ja jollekkin tulee liian paha mieli, pääsee kokemaan tämän vaikutukset.
 
 Valmiiksi annettu kuva päälle ja luodaan mininet ja verkko-ohjain tunnilla saaduilla komennoilla:
-´´´
+´´´´
 ryu-manager ryu.app.simple_switch_13
 sudo mn --topo single,3 --mac --switch ovsk --controller remote
 pingall
-´´´
+´´´´
 Sitten vain nodet auki taikakeksien avulla
 xterm h1-3
 
