@@ -16,7 +16,7 @@ sudo apt install evilginx2
 Testasin työkalulla tehdä kalastelusivun, jolla saisin kaapattua käyttäjän käyttäjänimen ja salasanan. Työkalu on siitä vaarallinen, että sillä voi välttää 2FA.
 
 ### Onnistuitko huijaamaan liikennettä
-Loppujen lopuksi yritykseni kaatui, koska en saanut firefoxia hyväksymään serttiä monen tunnin yrityksen jälkeen.
+Loppujen lopuksi yritykseni kaatui, koska en saanut firefoxia hyväksymään serttiä monen tunnin yrityksen jälkeen, mutta ymmärrän sen, että kuinka päätteeseen tieto tulisi, jos joku laittaisi tiedonsa siihen.
 
 <img width="909" height="841" alt="Näyttökuva 2025-11-23 234829" src="https://github.com/user-attachments/assets/532b0bb7-3bee-407b-bfcb-8d35569c5c74" />
 
