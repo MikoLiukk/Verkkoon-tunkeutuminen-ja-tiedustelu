@@ -31,3 +31,27 @@ lures get-url "0-100"
 
 ## b) Sinulla on käytössäsi mininet ympäristö. Luo ympäristö, jossa voit tehdä TCP SYN-Flood hyökkäyksen.
 ### Kirjoita miten loit mininet ympäristön ja miten toteutit hyökkäyksen.
+TCP SYN-flood, minulle ehkä tutummin (D)dos, jos on joskus pelannut verkoss moninpelejä ja jollekkin tulee liian paha mieli, pääsee kokemaan tämän vaikutukset.
+
+Valmiiksi annettu kuva päälle ja luodaan mininet ja verkko-ohjain tunnilla saaduilla komennoilla:
+ryu-manager ryu.app.simple_switch_13
+sudo mn --topo single,3 --mac --switch ovsk --controller remote
+pingall
+Sitten vain nodet auki taikakeksien avulla
+xterm h1-3
+
+H1 shellistä hyökkäys eteenpäin 
+sudo hping3 -S --flood -p 80 10.0.0.2
+Tässä huomiona, että hping3 luo TCP paketit "käsin" ja -S on SYN-lippu, eli luo TCP-yhteyden avauspyyntöjä, kun --flood on se mikä ylikuormittaa vastaanottajan päässä laitteet, eli lähettää paketit mahdollisimman nopeasti, ilman rajoituksia. Tästä tulee TCP SYN-flood.
+
+
+Tässä kohtaa yritin avata firesharkin, mutta tuloksetta, paketteja tuli niin paljon ja useasti, että läppärini suorituskykyloppui kesken, mutta henkilökohtaisen kokemuksen perusteella, voin sanoa että tuli käytettyä hyökkäystä itseeni onnistuneesti.
+
+### Lähteet
+https://www.firewall.cx/tools-tips-reviews/network-protocol-analyzers/performing-tcp-syn-flood-attack-and-detecting-it-with-wireshark.html#how-to-perform-syn-flood-attack
+https://github.com/p-lemonish/course-network-attacks-and-reconnaissance/blob/main/5/h5.md
+https://help.evilginx.com/community/getting-started/quickstart
+https://help.evilginx.com/community/getting-started/deployment/local
+https://www.youtube.com/watch?v=fVGZbMGH558
+
+
