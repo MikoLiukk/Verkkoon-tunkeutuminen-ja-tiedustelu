@@ -65,3 +65,11 @@ Taajuus 433,912MHz, Nauhoitettu 4.12.2025 kello 11:38:05 ja URH:sta näkee, ett�
 ## g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 Kyyseessä on OOK-modulaatio On-off Keying, yksi pulssi on noin 350ms
 <img width="1910" height="537" alt="Näyttökuva 2025-12-08 014200" src="https://github.com/user-attachments/assets/1dd2e027-a3d6-4644-89b1-ee686180d849" />
+
+
+### Lähteet:
+https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s
+https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/
+http://websdr.org/
+
